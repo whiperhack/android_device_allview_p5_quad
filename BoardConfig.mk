@@ -51,7 +51,7 @@ BOARD_EGL_WORKAROUND_BUG_10194508 := true
 
 # kernel
 TARGET_KERNEL_SOURCE := kernel/Allview/P5Quad
-TARGET_KERNEL_CONFIG := P5Quad-config
+TARGET_KERNEL_CONFIG := gionee89_cu_jb
 TARGET_PREBUILT_KERNEL := $(DEVICE_FOLDER)/prebuilt/kernel
 
 # partition info
