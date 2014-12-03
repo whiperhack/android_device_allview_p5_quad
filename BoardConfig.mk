@@ -50,7 +50,7 @@ USE_OPENGL_RENDERER := true
 BOARD_EGL_WORKAROUND_BUG_10194508 := true
 
 # kernel
-TARGET_KERNEL_SOURCE := kernel/Allview/P5Quad
+TARGET_KERNEL_SOURCE := kernel/Allview/P5Quad/kernel
 TARGET_KERNEL_CONFIG := kernel/Allview/P5Quad/P5Quad.mk
 TARGET_PREBUILT_KERNEL := $(DEVICE_FOLDER)/prebuilt/kernel
 
