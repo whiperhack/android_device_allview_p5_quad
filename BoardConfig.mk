@@ -51,7 +51,7 @@ BOARD_EGL_WORKAROUND_BUG_10194508 := true
 
 # kernel
 TARGET_KERNEL_SOURCE := kernel/Allview/P5Quad/kernel
-TARGET_KERNEL_CONFIG := kernel/Allview/P5Quad/mediatek/kernel
+TARGET_KERNEL_CONFIG := P5Quad_defconfig
 TARGET_PREBUILT_KERNEL := $(DEVICE_FOLDER)/prebuilt/kernel
 
 # partition info
@@ -65,7 +65,6 @@ TARGET_USERIMAGES_USE_EXT4 := true
 
 # recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_FOLDER)/root/fstab.mt6589
-TARGET_RECOVERY_KERNEL := kernel/Allview/P5Quad/mediatek/kernel
 TARGET_PREBUILT_RECOVERY_KERNEL := $(DEVICE_FOLDER)/recovery/kernel
 BOARD_HAS_NO_SELECT_BUTTON := true
 
