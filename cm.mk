@@ -20,7 +20,7 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 TARGET_SCREEN_HEIGHT := 960
 TARGET_SCREEN_WIDTH := 540
 
-PRODUCT_NAME := cm_P5Quad
+PRODUCT_NAME := P5Quad
 PRODUCT_DEVICE := P5Quad
 PRODUCT_MODEL := Allview P5 Quad
 PRODUCT_RELEASE_NAME := P5Quad
