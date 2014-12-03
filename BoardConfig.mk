@@ -65,6 +65,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 
 # recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_FOLDER)/root/fstab.mt6589
+TARGET_RECOVERY_KERNEL := kernel/Allview/P5Quad/mediatek/config/mt6589/autoconfig/
 TARGET_PREBUILT_RECOVERY_KERNEL := $(DEVICE_FOLDER)/recovery/kernel
 BOARD_HAS_NO_SELECT_BUTTON := true
 
