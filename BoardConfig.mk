@@ -51,7 +51,7 @@ BOARD_EGL_WORKAROUND_BUG_10194508 := true
 
 # kernel
 TARGET_KERNEL_SOURCE := kernel/Allview/P5Quad/kernel
-TARGET_KERNEL_CONFIG := mediatek-configs
+TARGET_KERNEL_CONFIG := P5Quad_defconfig
 TARGET_PREBUILT_KERNEL := $(DEVICE_FOLDER)/prebuilt/kernel
 
 # partition info
