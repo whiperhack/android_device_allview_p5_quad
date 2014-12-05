@@ -13,14 +13,14 @@
 # limitations under the License.
 
 # Inherit device configuration
-$(call inherit-product, device/Allview/P5Quad/P5Quad.mk)
+$(call inherit-product, device/Allview/P5Quad/full_P5Quad.mk)
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 1280
-TARGET_SCREEN_WIDTH := 720
+TARGET_SCREEN_HEIGHT := 960
+TARGET_SCREEN_WIDTH := 540
 
-PRODUCT_NAME := cm_p5quad
+PRODUCT_NAME := cm_P5Quad
 PRODUCT_DEVICE := P5Quad
 PRODUCT_MODEL := Allview P5 Quad
 PRODUCT_RELEASE_NAME := P5Quad
